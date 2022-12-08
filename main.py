@@ -14,7 +14,7 @@ def list_costs():
             list_gift_costs = [int(c) for c in gift_costs]
         except ValueError:
             print('Los datos deben de ser digitos numericos.')
-            sys.exit()   
+            sys.exit()
     return list_gift_costs
     
 def t_price(list_gift_costs):
