@@ -3,14 +3,20 @@ Matricula: 22-0559
 Nombre del Problema: Refinando codigo
 Descripcion: En este ejercicio, se refinara un codigo y se publicara en un repositorio de Github"""
 
+import sys
+
 def list_costs():
     """Recibe la ruta del archivo de costos como entrada y devuelve
     una lista con los costos en formato numerico"""
     with open('gift_costs.txt', encoding='UTF-8') as file:
         gift_costs = file.read().split('\n')
-    list_gift_costs = [int(c) for c in gift_costs]
+        try:
+            list_gift_costs = [int(c) for c in gift_costs]
+        except ValueError:
+            print('Los datos deben de ser digitos numericos.')
+            sys.exit()   
     return list_gift_costs
-
+    
 def t_price(list_gift_costs):
     """Recibe la lista de los costos como entrada y devuelve el precio total
     Decide cuales son los regalos que necesitan pagar impuestos al superar RD$1000"""
