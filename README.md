@@ -15,7 +15,7 @@ Para purificar el codigo utilize pylint, donde me faltaban algunos docstrings, e
 Entre otros errores que me salieron fueron como, error en la direccion del archivo que fue arreglado facilmemte, poniendo la direccion donde es, otro error fue por el tipo de dato que tenia el archivo "ValueError", que fue arreglado con "try and except", y por ultimo otro error tonto fue por el nombre de las funciones que fueron puestos mal, pero fue arreglado muy sencillamemte.
 
 2. Pruebas Unitarias:
-Utilizamos Pytest, para realizar todas las pruebas, excelentemente las 3 pruebas salieron buen con un maximo de 0.03s cada una.
+Utilice Pytest, para realizar todas las pruebas; las 3 pruebas salieron buen con un maximo de 0.04s cada una.
 
 ### Control de versiones 
 Link
