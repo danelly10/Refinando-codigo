@@ -1,13 +1,19 @@
 # Refianando Codigo
 
 ### Introduccion
-En este trabajo estaremos trabajos "Refinando Codigo, PP5 - Calidad y Archivos", donde estaremos limpiando y reestructurando el codigo utilizando los conocimientos dado en clases, pylint y el pytest, y lo estaremos subiendo al GitHub.
+En este trabajo "Refinando Codigo, PP5 - Calidad y Archivos", se trabaja con la limpieza y reestructuracion el codigo utilizando los conocimientos dado en clases, pylint y pytest.
+
+Al final, este trabajo sera presentado a traves de GitHub.
 
 ### Refactorizacion 
-Como refactorizacion estaremos dividiendolo en 3 funciones, la primera funcion la llame "open_cost", donde abrimos y leemos el archivo, transformamos los datos en INT y lo transformamos en una lista, como segunda funcion utilize 'tax" para agregar los impuestos al numero y hacer los calculos requeridos y por ultimo utilize la funcion "terminal" donde imprimimos el resulado que da, llamando las dos funciones anteriores.
+Dividi el codigo en tres funciones: list_costs, t_price y main.
+
+1. list_costs: Recibe la ruta del archivo de costos como entrada y devuelve una lista con los costos en formato numerico.
+2. t_price: Recibe la lista de los costos como entrada y devuelve el precio total. Decide cuales son los regalos que necesitan pagar impuestos al superar RD$1000  
+3. main: Funcion principal que llama a las funciones list_gift_costs y total_price. Luego imprime el precio total de los regalos en pantalla
 
 ### Limpieza 
-Para purificar el codigo utilize pylint, donde me faltaban algunos docstrings, espacios que no iban, nombre de variables que estaban mal y eso.
+Para purificar el codigo utilize pylint, donde me faltaban algunos docstrings, nombre de variables que estaban mal, espacios y lienas en blanco que no iban.
 
 ### Gestion de errores
 
@@ -26,5 +32,6 @@ Link
 
 - Despues: (https://user-images.githubusercontent.com/115515648/206586916-06f2edc3-75f8-4418-8e47-6aa58bac58da.png)
 
-2. Capturas: commit 
-(https://user-images.githubusercontent.com/115515648/206585909-6186714e-9be5-4fa8-93c1-23d39da66f1b.png)
+2. Capturas: commit
+
+- Todos los commit: (https://user-images.githubusercontent.com/115515648/206585909-6186714e-9be5-4fa8-93c1-23d39da66f1b.png)
