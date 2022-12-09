@@ -39,3 +39,7 @@ Link
 3. Enlace Permanente:
 
 https://github.com/danelly10/Refinando-codigo/blob/e52f3f78d214532f501c6c38c9ffd31874e353d6/test.py#L1-L11
+
+### Link Permanente de Main.py
+
+https://github.com/danelly10/Refinando-codigo/blob/a37e2e3cb0f60e710ffab5c5fedc903f87c6b079/main.py#L1-L39
