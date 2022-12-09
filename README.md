@@ -35,3 +35,7 @@ Link
 2. Capturas: commit
 
 - Todos los commit: (https://user-images.githubusercontent.com/115515648/206585909-6186714e-9be5-4fa8-93c1-23d39da66f1b.png)
+
+3. Enlace Permanente:
+
+https://github.com/danelly10/Refinando-codigo/blob/e52f3f78d214532f501c6c38c9ffd31874e353d6/test.py#L1-L11
